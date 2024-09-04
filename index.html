@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>fui fazer um piquenique com as minhas filhas, deixei elas brincando na caixa de area com uns brinquedos e fui preparar os lanches. Depois de 10 minutos minha filha gritou o meu nome, quando corri ate ela havia um envelope, falando de uma floresta perdida com muitas coisas sobrenaturais</p>
+            <button class="btn-proximo" data-proximo="1">ir para policia</button>
+            <button class="btn-proximo" data-proximo="2">levar pra casa e investigar onde era essa floresta</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>cheguei a delegacia e antes de entrar fiquei em duvida, se entregava a qualquer policial ou a um amigo meu que creditaria com maior facilidade em mim</p>
+            <button class="btn-proximo" data-proximo="3">entregar ao meu amigo policial</button>
+            <button class="btn-proximo" data-proximo="4">entreguei o envelope para o policial na porta</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>fui para a casa de uma amiga que era investigadora e tinha aquelas utensilios para ver digital, ela me ajudou a achar duas digitais e colocou no sistema dela, apareceu as informacoes de um homem e uma mulher
+            </p>
+            <button class="btn-proximo" data-proximo="5">investigar o homem</button>
+            <button class="btn-proximo" data-proximo="6">investigar a mulher</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>ele de inicio me achou louca e me disso que poderia ser uma brincadeira de qualquer pessoa,so para enganar alguem,porem decidiu me ajudar
+            </p>
+            <button class="btn-proximo" data-proximo="7">ele aceitou me ajudar</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>o policial ao ouvir o que eu havia falado do envelope e me esperar sair de la,ele jogou o envelope no lixo, pois nao acreditou em mim e deixou essa assunto parado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>No sistema havia algumas informações sobre o homem, e uma dessas era sua ficha de presidiario. Algumas procurações e um aviso de “procurado”.</p>
+            <button class="btn-proximo" data-proximo="7">Investigar o homem</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>conseguimos o nome e todas as informações necessarias da mulher, porem em um curto periodo o sistema ficou preto e foram excluidos todos os dados. Porem apareceu um quadrado no meio da tela para clicar</p>
+            <button class="btn-proximo" data-proximo="8">clicar no quadrado</button>
+            <button class="btn-proximo" data-proximo="8,5">desistir e deixar as informações da mulher guardada</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No sistema havia algumas informações sobre o homem, e uma dessas era sua ficha de presidiario. Algumas procurações e um aviso de “procurado”</p>
+            <button class="btn-proximo" data-proximo="7,5">desistir e deixar as informações do homem  guardada</button>
+            <button class="btn-proximo" data-proximo="9">clicar no aviso</button>
+            <button class="btn-proximo" data-proximo="10">deixar esse aviso de lado e reiniciar o sistema de delegacia</button>
+        </div>
+        <div class="passo" id="passo-7,5">
+            <p>caso encerrado sem descobrir sobre nada</p>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Havia informações de morte da mulher e sua ficha de obito, pois a tres meses atras ela havia sido assassinada. Entao vitima descartada.</p>
+        </div>
+        <div class="passo" id="passo-8,5">
+            <p>caso encerrado sem descobrir sobre nada</p>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>ao começar a ver as informações todos os computadores da delegacia começaram a reaparecer os avisos sobre o homem procurado pela policia. E apareceu mais um aviso sobre esse homem, para clicar</p>
+            <button class="btn-proximo" data-proximo="11">clicar no anuncio</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>o caso foi encerrado.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo12-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>o sistema abriu em uma aba com muitas informações sobre o homem, percebi meu amigo meio aflito porem continuei olhando o site, e depois de uns 10 minutos carregando apareceu uma foto desse suspeito.</p>
+        </div>
+
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
